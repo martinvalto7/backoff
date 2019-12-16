@@ -7,9 +7,13 @@ import { HomeComponent } from './home/home.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {  MatInputModule } from '@angular/material';
+
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatTableModule } from '@angular/material/table';  
+import { MatTableModule } from '@angular/material/table'; 
+
+import { MatSortModule } from '@angular/material/sort';  
 
 @NgModule({
   declarations: [
@@ -24,6 +28,8 @@ import { MatTableModule } from '@angular/material/table';
     MatToolbarModule,
     MatFormFieldModule,
     MatTableModule,
+    MatInputModule,
+    MatSortModule
     
   ],
   providers: [],

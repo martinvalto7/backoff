@@ -8,7 +8,8 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatInputModule } from '@angular/material'; 
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';  
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MatInputModule } from '@angular/material';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatInputModule
+    MatFormFieldModule,
+    MatTableModule
     
   ],
   providers: [],

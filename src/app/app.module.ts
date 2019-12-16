@@ -7,6 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatInputModule } from '@angular/material'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatInputModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
